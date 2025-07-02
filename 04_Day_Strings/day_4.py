@@ -95,7 +95,7 @@ print(challenge.capitalize()) # 'Thirty days of python'
 # count(): returns occurrences of substring in string, count(substring, start=.., end=..)
 
 challenge = 'thirty days of python'
-print(challenge.count('y')) # 3
+print(challenge.count('y')) # count number of y 3
 print(challenge.count('y', 7, 14)) # 1
 print(challenge.count('th')) # 2`
 
@@ -246,3 +246,14 @@ challenge = 'thirty days of python'
 print(challenge.startswith('thirty')) # True
 challenge = '30 days of python'
 print(challenge.startswith('thirty')) # False
+
+# String Interpolation / f-Strings (Python 3.6+)
+a = 4
+b = 3
+print(f'{a} + {b} = {a +b}')
+print(f'{a} - {b} = {a - b}')
+print(f'{a} * {b} = {a * b}')
+print(f'{a} / {b} = {a / b:.2f}')
+print(f'{a} % {b} = {a % b}')
+print(f'{a} // {b} = {a // b}')
+print(f'{a} ** {b} = {a ** b}')
