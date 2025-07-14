@@ -33,7 +33,6 @@ print(day, month, year, hour, minute) #1 1 2020 0 0
 print(f'{day}/{month}/{year}, {hour}:{minute}')  # 1/1/2020, 0:0
 
 # Formatting date time using strftime method and the documentation can be found https://strftime.org/.
-
 from datetime import datetime
 # current date and time
 now = datetime.now()
